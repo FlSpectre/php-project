@@ -1,7 +1,9 @@
-* {
+body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
   background-color: aliceblue;
+  text-transform: uppercase;
 }
 
 .nav-bar {
@@ -15,4 +17,40 @@ a {
   text-decoration: none;
   color: black;
   font-size: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 12vh;
+  margin-bottom: 0;
+}
+
+.head-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 30px;
+  background-color: #001380;
+}
+
+.foot-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #008000;
+}
+
+.item>img {
+  height: 200px;
+  width: 400px;
+  background-color: #008000;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  background-color: rgb(95, 13, 13);
 }

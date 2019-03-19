@@ -1,6 +1,6 @@
 <button class="open-form" onclick="openForm()">Register</button>
 <div class="form-popup" id="myForm">
-    <form class="form-container">
+    <form class="form-container" action="cible.php" method="post">
         <h1>Registration</h1>
         <label for="prenom"><b>First name</b></label>
         <input id="client_firstname" type="text" placeholder="Enter your first name" name="prenom" required>
