@@ -1,16 +1,24 @@
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+<!DOCTYPE html>
+<html lang="en">
 
-try {
-    $conn = new PDO("mysql:host=$servername;dbname=myphpdb", 'root', '');
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully"; 
-    }
-catch(PDOException $e)
-    {
-    echo "Connection failed: " . $e->getMessage();
-    }
-?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <title>Document</title>
+
+</head>
+
+<body>
+    <?php require_once('header.php') ?>
+    <?php require_once('select-data.php') ?>
+    <div>ALLO</div>
+
+
+    <div>ALLO</div>
+    <?php require_once('footer.php') ?>
+
+</body>
+
+</html> 
