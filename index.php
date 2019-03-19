@@ -9,12 +9,9 @@
 </head>
 <body>
 <?php require_once ('header.php')?>
+<div class="content">
 <?php require_once ('select-data.php')?>
-<div>ALLO</div>
-
-
-<div>ALLO</div>
-<?php require_once ('footer.php')?>
-    
+</div>
+<?php require_once ('footer.php')?>    
 </body>
 </html>
