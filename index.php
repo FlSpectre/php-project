@@ -7,14 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <title>Document</title>
+    <title>Car Shop</title>
 
 </head>
 
 <body>
     <?php require_once('header.php') ?>
     <?php require_once('form.php') ?>
-
     <div class="content">
         <?php require_once('select-data.php') ?>
     </div>

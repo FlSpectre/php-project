@@ -1,4 +1,4 @@
-<button class="open-form" onclick="openForm()">Register</button>
+<button class="open-form" onclick="openForm()">REGISTER</button>
 <div class="form-popup" id="myForm">
     <form class="form-container" action="index.php" method="post">
         <h1>Registration</h1>
