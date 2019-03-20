@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   background-color: lightgray;
 }
@@ -41,7 +41,7 @@ a {
   background-color: lightgray;
 }
 
-.item>img {
+.item > img {
   height: 200px;
   width: 400px;
   background-color: lightgray;
@@ -66,7 +66,8 @@ li {
   float: left;
 }
 
-li a, .dropbtn {
+li a,
+.dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -74,7 +75,8 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover,
+.dropdown:hover .dropbtn {
   background-color: lightgray;
 }
 
@@ -134,7 +136,8 @@ li.dropdown {
   background-color: white;
 }
 
-.form-container input[type=text], .form-container input[type=password] {
+.form-container input[type="text"],
+.form-container input[type="password"] {
   width: 100%;
   padding-top: 15px;
   margin: 5px 0 22px 0;
@@ -142,12 +145,13 @@ li.dropdown {
   background: #f1f1f1;
 }
 
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
   background-color: #ddd;
 }
 
 .form-container .post-form {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -168,7 +172,8 @@ li.dropdown {
   opacity: 0.8;
 }
 
-.form-container .btn:hover, .open-form:hover {
+.form-container .btn:hover,
+.open-form:hover {
   opacity: 1;
 }
 
@@ -186,4 +191,9 @@ footer {
   height: 20px;
   width: 100px;
   z-index: 2;
+}
+
+.logo_site {
+  height: 50px;
+  width: 100px;
 }

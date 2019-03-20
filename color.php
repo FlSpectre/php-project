@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = "myphpdb";
+$password = "firpowwa1998";
+$dbname = "Cars";
 
 $bdd = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 $rep = $bdd->query("SELECT car_color FROM cars");
