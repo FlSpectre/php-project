@@ -1,4 +1,4 @@
-function registration() { }
+// function registration() { }
 
 
 // It's obvious no ?

@@ -1,11 +1,11 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = "myphpdb";
+$password = "firpowwa1998";
+$dbname = "Cars";
 
 $bdd = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-$rep = $bdd->query("SELECT * FROM cars");
+$rep = $bdd->query("SELECT car_color FROM cars");
 while ($donnees = $rep->fetch()) {
     ?>
 <div class="item">
@@ -16,12 +16,9 @@ while ($donnees = $rep->fetch()) {
     <img src="<?php echo $donnees['car_image']; ?>" />
     <div class="foot-item">
         <div class="car_energy"><?php echo $donnees['car_energy']; ?></div>
-        <div class="car_model"><?php echo $donnees['car_price']; ?><span>€</span></div>
         <div class="car_color"><?php echo $donnees['car_color']; ?></div>
     </div>
 </div>
-<?php
-
+<?php 
 }
-
 ?> 
