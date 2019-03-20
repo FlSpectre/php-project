@@ -13,6 +13,6 @@
         <label for="pays"><b>Country</b></label>
         <input id="client_country" type="text" placeholder="Enter your country" name="pays" required>
         <button type="submit" class="post-form" name="save">Create my account</button>
-        <button type="button" class="close-form" onclick="closeForm()">Close</button>
+        <button type="button" class="close-form" onclick="closeForm()"></button>
     </form>
 </div> 

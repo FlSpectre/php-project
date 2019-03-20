@@ -31,14 +31,15 @@ a {
   flex-direction: row;
   justify-content: space-around;
   font-size: 30px;
-  background-color: lightgray;
+  background-color: rgb(0, 0, 0);
+  color: #c0c0c0
 }
 
 .foot-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: lightgray;
+  background-color: rgb(85, 85, 85);
 }
 
 .item>img {
@@ -122,8 +123,9 @@ li.dropdown {
 
 .form-popup {
   display: none;
-  top: 100px;
-  left: 500px;
+  position: fixed;
+  top: 64px;
+  left: 450px;
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
@@ -168,7 +170,7 @@ li.dropdown {
   opacity: 0.8;
 }
 
-.form-container .btn:hover, .open-form:hover {
+.form-container .close-form:hover, .open-form:hover .post-form:hover {
   opacity: 1;
 }
 
