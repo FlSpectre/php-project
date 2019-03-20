@@ -1,6 +1,6 @@
 <button class="open-form" onclick="openForm()">Register</button>
 <div class="form-popup" id="myForm">
-    <form class="form-container" action="cible.php" method="post">
+    <form class="form-container" action="index.php" method="post">
         <h1>Registration</h1>
         <label for="prenom"><b>First name</b></label>
         <input id="client_firstname" type="text" placeholder="Enter your first name" name="prenom" required>
@@ -13,6 +13,6 @@
         <label for="pays"><b>Country</b></label>
         <input id="client_country" type="text" placeholder="Enter your country" name="pays" required>
         <button type="submit" class="post-form" name="save">Create my account</button>
-        <button type="button" class="close-form" onclick="closeForm()">Fermer</button>
+        <button type="button" class="close-form" onclick="closeForm()">Close</button>
     </form>
 </div> 
